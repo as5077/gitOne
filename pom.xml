@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>appUtil</module>
+    <module>appDao</module>
   </modules>
   <name>gitOneProject Maven Webapp</name>
   <url>http://maven.apache.org</url>
