@@ -3,8 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>gitOne</groupId>
   <artifactId>gitOneProject</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>appUtil</module>
+  </modules>
   <name>gitOneProject Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
