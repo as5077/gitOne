@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="appDao:war">
+    <output-path>$PROJECT_DIR$/appDao/target</output-path>
+    <root id="archive" name="appDao.war">
+      <element id="artifact" artifact-name="appDao:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="appDao" />
         <module name="appUtil" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="appDao" target="1.5" />
       <module name="appUtil" target="1.5" />
       <module name="personal" target="1.5" />
     </bytecodeTargetLevel>
