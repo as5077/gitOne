@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="appDao" />
         <module name="appUtil" />
+        <module name="appweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="appDao" target="1.5" />
       <module name="appUtil" target="1.5" />
+      <module name="appweb" target="1.5" />
       <module name="personal" target="1.5" />
     </bytecodeTargetLevel>
   </component>

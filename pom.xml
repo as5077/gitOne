@@ -8,6 +8,7 @@
   <modules>
     <module>appUtil</module>
     <module>appDao</module>
+      <module>appweb</module>
   </modules>
   <name>gitOneProject Maven Webapp</name>
   <url>http://maven.apache.org</url>
