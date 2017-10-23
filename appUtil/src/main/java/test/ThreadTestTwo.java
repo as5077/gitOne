@@ -6,17 +6,26 @@ public class ThreadTestTwo {
 
     public static void main(String [] args){
         ThreadTwoUtil threadTwoUtil = new ThreadTwoUtil();
-        Thread thread = new Thread(threadTwoUtil);
-        thread.start();
-        ArrayList<String> arrayList = new ArrayList<String>(20);
-
+        threadTwoUtil.start();
     }
 }
 
-class ThreadTwoUtil implements Runnable{
+class ThreadTwoUtil extends Thread{
 
      public void run() {
-        System.out.println("1");
+         try {
+
+             while(true){
+                 Thread.sleep(2000);
+                 synchronized (this){
+                     System.out.println("1");
+                 }
+             }
+         } catch (InterruptedException e) {
+             e.printStackTrace();
+         }
+
+
     }
 
 }

@@ -11,7 +11,11 @@
     <name>appUtil Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.8.0</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>appUtil</finalName>
